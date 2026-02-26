@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom 3D Icon Classes */
+.icon-3d {
+    @apply shadow-xl shadow-indigo-500/20 bg-gradient-to-br from-white to-indigo-50 border border-white/50 backdrop-blur-sm relative z-10;
+}
+
+.icon-3d-inner {
+    @apply drop-shadow-md transform transition-transform duration-500;
+}
