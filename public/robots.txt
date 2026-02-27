@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /QLC/
 
-Sitemap: https://queencitygrowthlab.com/sitemap.xml
+Sitemap: https://www.queencitygrowthlab.com/sitemap.xml
