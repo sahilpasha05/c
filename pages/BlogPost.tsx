@@ -37,11 +37,13 @@ const BlogPost: React.FC = () => {
           </span>
         </div>
         {post.image && (
-          <img
-            src={post.image}
-            alt={post.title}
-            className="w-full h-auto mb-6 rounded-lg object-cover"
-          />
+          <div className="w-full mb-6 rounded-lg overflow-hidden h-64">
+            <img
+              src={post.image}
+              alt={post.title}
+              className="w-full h-full object-cover object-center"
+            />
+          </div>
         )}
         <div
           className="prose prose-slate max-w-none"

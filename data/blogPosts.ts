@@ -11,36 +11,50 @@ const posts: BlogPost[] = [
     excerpt: `Learn how to quantify the return on investment for your med spa marketing campaigns and make data-backed decisions that drive predictable revenue.`,
 
     content: `
-<h2>Why Med Spa Marketing Needs a Numbers Game</h2>
+<h2 class="bg-yellow-200 inline-block px-2 py-1 rounded"><strong>Why Med Spa Marketing Needs a Numbers Game</strong></h2>
 <p>Running a med spa is part art and part science. You can design beautiful
 websites, run attractive promos, and shoot high-quality videos, but none of
 that matters if you don’t know whether your marketing spend is actually
-paying off. In this article we break down the simple formulas that show you
-exactly how many new patients you need and what it costs to acquire them.</p>
+paying off. Below we break down the simple formulas that show you exactly
+how many new patients you need and what it costs to acquire them. Treat
+this as a checklist you can revisit with every campaign.</p>
 
-<h3>Step 1: Determine Your Average Patient Value</h3>
-<p>Start with conservative figures. If the typical patient schedules a<br>
-initial consultation for $150 and then converts to a series of Botox or<br>
-CoolSculpting treatments worth $2,500 over six months, your average value is<br>
-about $1,325 per patient.</p>
+<div class="my-8 p-6 bg-gray-50 rounded-lg">
+  <h3 class="text-xl font-semibold mb-4">Step 1: Determine Your Average Patient Value</h3>
+  <p>Start with conservative figures. For example, if the typical patient
+  schedules an initial consultation for <strong>$150</strong> and then converts
+to a series of Botox or CoolSculpting treatments worth <strong>$2,500</strong>
+over six months, your average value is about <strong>$1,325</strong> per
+  patient.</p>
+</div>
 
-<h3>Step 2: Know Your Conversion Rates</h3>
-<p>Track two key conversion rates: the percentage of website visitors who book
-consultations, and the percentage of consultations that turn into paying
-customers. If 3% of visitors book and 30% of consultations convert, your
-visitor-to-customer rate is 0.9%.</p>
+<div class="my-8 p-6 bg-gray-50 rounded-lg">
+  <h3 class="text-xl font-semibold mb-4">Step 2: Know Your Conversion Rates</h3>
+  <p>Track two key conversion rates:</p>
+  <ul class="list-disc list-inside">
+    <li>the percentage of website visitors who book consultations, and</li>
+    <li>the percentage of consultations that turn into paying customers.</li>
+  </ul>
+  <p>If 3 % of visitors book and 30 % of consultations convert, your
+  visitor‑to‑customer rate is 0.9 %.</p>
+</div>
 
-<h3>Step 3: Calculate Cost Per Lead and Cost Per Acquisition</h3>
-<p>If you spend $5,000 on Facebook and Google ads in a month and generate 200
-qualified leads, your <strong>cost per lead</strong> is $25. With a 0.9%
-visitor-to-customer rate that equates to roughly 1.8 paying customers – or a
-<strong>cost per acquisition</strong> of about $2,778.</p>
+<div class="my-8 p-6 bg-gray-50 rounded-lg">
+  <h3 class="text-xl font-semibold mb-4">Step 3: Calculate Cost Per Lead and Cost Per Acquisition</h3>
+  <p>If you spend <strong>$5,000</strong> on Facebook and Google ads in a month
+  and generate 200 qualified leads, your <strong>cost per lead</strong> is
+  $25. With a 0.9 % visitor‑to‑customer rate that equates to roughly 1.8 paying
+  customers – or a <strong>cost per acquisition</strong> of about
+  $2,778.</p>
+</div>
 
-<h3>Step 4: Put It All Together</h3>
-<p>Subtract your cost per acquisition from the average patient value. Using the
-numbers above, $1,325 minus $2,778 yields a negative return – clearly a
-campaign that needs fine-tuning. The math makes the decision obvious: either
-improve conversions or lower ad spend.</p>
+<div class="my-8 p-6 bg-gray-50 rounded-lg">
+  <h3 class="text-xl font-semibold mb-4">Step 4: Put It All Together</h3>
+  <p>Subtract your cost per acquisition from the average patient value. Using the
+  numbers above, <strong>$1,325 – $2,778</strong> yields a negative return.
+  That’s a campaign that needs fine‑tuning. The math makes the decision clear:
+  either improve conversions or lower ad spend.</p>
+</div>
 
 <h3>Conclusion</h3>
 <p>Marketing math doesn’t have to be complicated. With a few simple metrics you
