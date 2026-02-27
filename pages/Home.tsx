@@ -10,7 +10,7 @@ const Home: React.FC = () => {
     const { getSectionContent } = usePageContent('Home');
     const isEditMode = useAdminEditMode();
     return (
-        <main>
+        <main className="pt-6">
             <Hero />
 
             {/* Proof of Performance Section */}

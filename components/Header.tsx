@@ -11,7 +11,8 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="fixed top-6 left-0 right-0 z-50 px-4 sm:px-6 lg:px-8 pointer-events-none">
+    <header className="fixed top-0 left-0 right-0 z-50 px-4 sm:px-6 lg:px-8">
+      {/* extra padding inside to prevent content jump since header is now flush */}
       <div className="max-w-[1440px] mx-auto flex items-center justify-between relative">
 
         {/* Logo - Outside Navbar */}

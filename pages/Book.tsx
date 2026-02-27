@@ -8,7 +8,7 @@ const Book: React.FC = () => {
     const isEditMode = useAdminEditMode();
 
     return (
-        <div className="pt-32 pb-24 bg-white min-h-screen">
+        <div className="pt-36 pb-24 bg-white min-h-screen">
             <div className="max-w-4xl mx-auto px-4">
                 <div className="text-center mb-12">
                     <h1 className="text-4xl font-extrabold text-slate-900 mb-4"><EditableText page="Book" section="header" field="title" isEditMode={isEditMode}>{getSectionContent('header', 'title', 'Book Your Growth Strategy Call')}</EditableText></h1>

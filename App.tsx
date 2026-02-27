@@ -13,6 +13,7 @@ const ROICalculatorPage = lazy(() => import('./pages/ROICalculatorPage'));
 const CityPage = lazy(() => import('./pages/CityPage'));
 const AttorneyMarketing = lazy(() => import('./pages/AttorneyMarketing'));
 const Blog = lazy(() => import('./pages/Blog'));
+const BlogPost = lazy(() => import('./pages/BlogPost'));
 const AdminLogin = lazy(() => import('./pages/AdminLogin'));
 const AdminDashboard = lazy(() => import('./pages/AdminDashboard'));
 
@@ -29,6 +30,7 @@ const App: React.FC = () => {
             <Route path="/contractor-marketing" element={<ContractorGrowth />} />
             <Route path="/attorney-marketing" element={<AttorneyMarketing />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:id" element={<BlogPost />} />
             <Route path="/book" element={<Book />} />
             <Route path="/results" element={<Results />} />
             <Route path="/roi-calculator" element={<ROICalculatorPage />} />

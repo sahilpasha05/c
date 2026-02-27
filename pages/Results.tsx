@@ -8,7 +8,7 @@ const Results: React.FC = () => {
     const { getSectionContent } = usePageContent('Results');
     const isEditMode = useAdminEditMode();
     return (
-        <div className="pt-24 bg-slate-50 min-h-screen">
+        <div className="pt-28 bg-slate-50 min-h-screen">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
                 <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4 text-center">
                     <EditableText page="Results" section="header" field="title" isEditMode={isEditMode}>{getSectionContent('header', 'title', 'Proof of Performance')}</EditableText>

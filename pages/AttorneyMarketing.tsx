@@ -8,7 +8,7 @@ const AttorneyMarketing: React.FC = () => {
     const { getSectionContent } = usePageContent('AttorneyMarketing');
     const isEditMode = useAdminEditMode();
     return (
-        <div className="pt-24 pb-12 bg-slate-50 min-h-screen">
+        <div className="pt-28 pb-12 bg-slate-50 min-h-screen">
             <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="max-w-3xl">
                     <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-100 text-amber-700 text-xs font-bold mb-6 uppercase tracking-wider">

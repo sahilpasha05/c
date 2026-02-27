@@ -26,7 +26,7 @@ const CityPage: React.FC<CityPageProps> = ({ vertical }) => {
     if (isAttorney) serviceName = 'Client Acquisition';
 
     return (
-        <div className="pt-24 pb-12 bg-slate-50 min-h-screen">
+        <div className="pt-28 pb-12 bg-slate-50 min-h-screen">
             {/* City-Specific Hero */}
             <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 mb-16">
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900 text-white text-xs font-bold mb-6 uppercase tracking-wider">
